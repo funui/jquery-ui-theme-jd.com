@@ -63,9 +63,11 @@ Runtime
 # PHPUnit
 cov/*
 
-
-##################################
+# Adobe type file
 *.psd
 *.ai
 .BridgeCache
 .BridgeCacheT
+
+# CorelDRAW type file
+*.cdr
