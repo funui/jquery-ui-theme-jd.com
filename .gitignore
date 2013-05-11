@@ -71,3 +71,6 @@ cov/*
 
 # CorelDRAW type file
 *.cdr
+
+# application
+.tmp
