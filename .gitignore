@@ -72,5 +72,9 @@ cov/*
 # CorelDRAW type file
 *.cdr
 
-# application
+# Application
+node_modules
+dist
 .tmp
+.sass-cache
+app/components
