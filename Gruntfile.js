@@ -142,6 +142,7 @@ module.exports = function (grunt) {
         },
         compass: {
             options: {
+                config: 'config/compass.rb',
                 sassDir: '<%= yeoman.app %>/styles',
                 cssDir: '.tmp/styles',
                 imagesDir: '<%= yeoman.app %>/images',
