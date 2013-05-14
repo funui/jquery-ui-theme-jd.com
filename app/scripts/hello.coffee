@@ -1,1 +1,2 @@
-console.log "'Allo from CoffeeScript!"
+if window.console
+    console.log "'Allo from CoffeeScript!"
