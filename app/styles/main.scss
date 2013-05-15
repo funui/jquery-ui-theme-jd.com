@@ -4,6 +4,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 // @import 'sass-bootstrap/lib/bootstrap';
 @import '960/grid';
 @import 'theme';
+@import 'grid';
 
 body {
     background-color: #fff;
@@ -20,12 +21,3 @@ a {
     width: 300px;
 }
 
-.container {
-    width: 600px;
-    margin: 0 auto;
-}
-
-.left {
-    float: left;
-    width: 222px;
-}
