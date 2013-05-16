@@ -4,11 +4,13 @@ require 'compass-normalize'
 require 'ninesixty'
 
 # Set this to the root of your project when deployed:
-http_path = "../../"
+http_path = "/"
 css_dir = "app/styles"
 sass_dir = "app/styles"
 images_dir = "app/images"
 javascripts_dir = "app/scripts"
+http_images_path = "../images"
+http_generated_images_path = "../images"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
