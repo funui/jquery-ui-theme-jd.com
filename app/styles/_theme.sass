@@ -1,3 +1,5 @@
+@import "../images/icons/*.png"
+
 .list 
     border: 1px solid #DDD
     .item
@@ -24,7 +26,8 @@
             cursor: pointer
             margin: 0
         b
-            background: url("../images/folded-icon.png") no-repeat scroll transparent
+            // background: url("../images/icon/folded.png") no-repeat scroll transparent
+            +icon-sprite(folded)
             width: 16px
             height: 16px
             float: left
@@ -33,5 +36,6 @@
         ul
             display: block
         b
-            background: url("../images/opened-icon.png") no-repeat scroll transparent
+            // background: url("../images/icon/opened.png") no-repeat scroll transparent
+            +icon-sprite(opened)
 

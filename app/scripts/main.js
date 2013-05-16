@@ -11,7 +11,7 @@ require.config({
     }
 });
 
-require(['app', 'jquery', 'bootstrap'], function (app, $) {
+require(['app', 'jquery', 'bootstrap', 'hello'], function (app, $) {
     'use strict';
     // use app here
     if(window.console){
@@ -19,3 +19,5 @@ require(['app', 'jquery', 'bootstrap'], function (app, $) {
         console.log('Running jQuery %s', $().jquery);
     }
 });
+
+
