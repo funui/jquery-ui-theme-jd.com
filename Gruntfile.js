@@ -314,7 +314,7 @@ module.exports = function (grunt) {
             'concurrent:server',
             'livereload-start',
             'connect:livereload',
-            'open',
+            // 'open',
             'watch'
         ]);
     });
