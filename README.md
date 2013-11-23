@@ -1,3 +1,3 @@
-jquery-ui-theme-jd.com
+jquery-ui theme-jd.com
 ======================
 
